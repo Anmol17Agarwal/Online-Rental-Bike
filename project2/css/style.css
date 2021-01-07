@@ -8,8 +8,9 @@
     --navbar-height:59px;
 }
 #navbar{
-    display: flex;
-    align-items: center;
+   display: flex;
+    align-items : center;
+    position: relative;
 
 }
 
@@ -19,6 +20,16 @@
     width: 52px;
     margin: 24px 24px;
 
+}
+
+#navbar ::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* opacity: 0.4; */
 }
 
 /* ul style  */
@@ -34,11 +45,19 @@ font-size: 1.3rem;
 }
 
 #navbar ul li a{
+    color: white;
     display: block;
     padding: 10px 10px;
     font-size: 15px;
     border-radius: 20px;
     border: 2px solid black;
     text-decoration: none;
+
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+
 
 }
