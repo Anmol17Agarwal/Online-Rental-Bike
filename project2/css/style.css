@@ -1,0 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* create variable */
+:root{
+    --navbar-height:59px;
+}
