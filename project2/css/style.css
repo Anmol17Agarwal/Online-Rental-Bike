@@ -54,6 +54,7 @@ font-size: 1.3rem;
     padding: 10px 10px;
     font-size: 15px;
     border-radius: 20px;
+    font-family: 'Patrick Hand', cursive;
     border: 2px solid black;
     text-decoration: none;
 
@@ -85,8 +86,22 @@ font-size: 1.3rem;
     opacity: 0.8;
 }
 
+#home h1{
+    text-align: center;
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+}
+#home p{
+    text-align: center;
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.5rem;
+}
 /* Utility classes */
 #primary{
 font-size: 3rem;
 padding: 12px;
+}
+p{
+
 }
