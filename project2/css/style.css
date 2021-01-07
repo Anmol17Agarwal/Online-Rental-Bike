@@ -33,6 +33,7 @@
     height: 100%;
     width: 100%;
     z-index: -1;
+    opacity: 0.7;
 }
 
 /* ul style  */
@@ -67,6 +68,25 @@ font-size: 1.3rem;
     display: flex;
     flex-direction: column;
     padding: 3px 200px;
+    height: 450px;
     justify-content: center;
     align-items: center;
+}
+
+#home::before{
+    content: "";
+    background: url(https://images.pexels.com/photos/4606338/pexels-photo-4606338.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+/* Utility classes */
+#primary{
+font-size: 3rem;
+padding: 12px;
 }
