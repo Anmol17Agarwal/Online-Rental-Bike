@@ -10,5 +10,35 @@
 #navbar{
     display: flex;
     align-items: center;
-    
+
+}
+
+/* logo style */
+#logo img{
+    height: 42px;
+    width: 52px;
+    margin: 24px 24px;
+
+}
+
+/* ul style  */
+#navbar ul{
+    display: flex;
+}
+
+/* list style  */
+
+#navbar ul li{
+list-style: none;
+font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 10px 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 2px solid black;
+    text-decoration: none;
+
 }
