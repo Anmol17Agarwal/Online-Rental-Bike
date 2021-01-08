@@ -107,24 +107,29 @@ font-size: 1.3rem;
 }
 #services h1{
     text-align: center;
-    color: black;
+    color: white;
     font-family: 'Patrick Hand', cursive;
     font-size: 1.5rem;
 }
 
 #services p{
     text-align: center;
-    color: black;
+    color: white;
     font-family: 'Patrick Hand', cursive;
     font-size: 1.5rem;
 
 }
 #services .box{
-    border:2px solid brown;
+    border: 2px solid #706a6a;
     padding: 40px;
-    margin: 5px 7px;
+    margin: 5px 12px;
     border-radius: 30px;
-    background-color: #7b473c4a;;
+    transition: transform .2s;
+    background-color: #121212;
+    /* box-shadow: 5px 10px #706a6a; */
+}
+#services .box:hover{
+    transform: scale(1.1);
 }
 
 #services .box img{
@@ -132,6 +137,9 @@ font-size: 1.3rem;
     margin: auto;
     display: block;
 }
+
+/* client section  */
+
 
 /* Utility classes */
 #primary{
