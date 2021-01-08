@@ -1,11 +1,16 @@
 *{
     margin: 0px;
-    padding: 0px;
+    padding: 4px;
+   
+ 
 } 
+body{
+    background-color: black;
+}
 
 /* create variable */
 :root{
-    --navbar-height:54px;
+    --navbar-height:30px;
 }
 #navbar{
    display: flex;
@@ -19,7 +24,7 @@
 }
 /* logo style */
 #logo img{
-    height: 96px;
+    height: 90px;
     
 
 }
@@ -55,7 +60,6 @@ font-size: 1.3rem;
     font-size: 15px;
     border-radius: 20px;
     font-family: 'Patrick Hand', cursive;
-    border: 2px solid black;
     text-decoration: none;
 
 }
@@ -70,7 +74,7 @@ font-size: 1.3rem;
     display: flex;
     flex-direction: column;
     padding: 3px 200px;
-    height: 640px;
+    height: 652px;
     justify-content: center;
     align-items: center;
 }
@@ -98,11 +102,14 @@ font-size: 1.3rem;
     font-family: 'Patrick Hand', cursive;
     font-size: 1.5rem;
 }
+/* End of home section  */
+
 /* Services section */
 
 #services{
     display: flex;
     margin: 40px;
+    height: 400px;
 
 }
 #services h1{
@@ -121,15 +128,14 @@ font-size: 1.3rem;
 }
 #services .box{
     border: 2px solid #706a6a;
-    padding: 40px;
-    margin: 5px 12px;
+    padding: 17px;
+    margin: -12px 10px;
     border-radius: 30px;
-    transition: transform .2s;
+    transition: transform .5s;
     background-color: #121212;
-    /* box-shadow: 5px 10px #706a6a; */
 }
 #services .box:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 #services .box img{
@@ -138,9 +144,12 @@ font-size: 1.3rem;
     display: block;
 }
 
+/* End of service section */
+
+
 /* client section  */
 #client-section{
-    height: 450px;
+    height: 480px;
 }
 
 #client-section::before{
@@ -148,15 +157,14 @@ font-size: 1.3rem;
     position: absolute;
     background: url(https://images.pexels.com/photos/104842/bmw-vehicle-ride-bike-104842.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)no-repeat center center/cover;
     width: 100%;
-    height: 80%;
+    height: 67%;
     z-index: -1;
-    /* opacity: 7.4; */
+ 
 }
 #client{
 display: flex;
 justify-content: center;
 align-items: center;
-align-content: center;
 }
 
 .client-item{
@@ -169,13 +177,62 @@ align-content: center;
 #client-section h1{
     color: #0c0c0c;
 }
+/* end of client section  */
+
+
+/* contact section  */
+
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url(https://images.pexels.com/photos/1049872/pexels-photo-1049872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center/cover;
+
+}
+.contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+.contact-box input, 
+.contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+  
+    border-radius: 9px;
+    font-size: 1.1rem;
+} 
+
+.contact-box form{
+    width: 40%;
+}
+
+.contact-box label{
+   font-size: 1.3rem;
+   color: white;
+   font-family: 'Patrick Hand', cursive;
+}
+#contact h1{
+    color: #0c0c0c;
+}
+    /* end of contact section */
+
 
 
 /* Utility classes */
 #primary{
 font-size: 3rem;
-padding: 12px;
+padding: 14px;
 font-weight: bold;
+font-style: unset;
+color: wheat;
 text-align: center;
 font-family: 'Patrick Hand', cursive;
 }
@@ -202,4 +259,10 @@ font-family: 'Patrick Hand', cursive;
     border: 2px solid black;
     text-decoration: none;
     cursor: pointer;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 9px 287px;
 }
