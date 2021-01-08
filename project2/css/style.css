@@ -5,7 +5,7 @@
 
 /* create variable */
 :root{
-    --navbar-height:59px;
+    --navbar-height:54px;
 }
 #navbar{
    display: flex;
@@ -63,13 +63,14 @@ font-size: 1.3rem;
 #navbar ul li a:hover{
     color: black;
     background-color: white;
+    cursor: pointer;
 }
 /* Home section  */
 #home{
     display: flex;
     flex-direction: column;
     padding: 3px 200px;
-    height: 450px;
+    height: 645px;
     justify-content: center;
     align-items: center;
 }
@@ -97,11 +98,66 @@ font-size: 1.3rem;
     font-family: 'Patrick Hand', cursive;
     font-size: 1.5rem;
 }
+/* Services section */
+
+#services{
+    display: flex;
+    margin: 40px;
+
+}
+#services h1{
+    text-align: center;
+    color: black;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.5rem;
+}
+
+#services p{
+    text-align: center;
+    color: black;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.5rem;
+
+}
+#services .box{
+    border:2px solid brown;
+    padding: 40px;
+    margin: 5px 7px;
+    border-radius: 30px;
+    background-color: #7b473c4a;;
+}
+
+#services .box img{
+    height: 100px;
+    margin: auto;
+    display: block;
+}
+
 /* Utility classes */
 #primary{
 font-size: 3rem;
 padding: 12px;
+text-align: center;
 }
-p{
-
+#btn{
+    color: white;
+    background-color: black;
+    display: block;
+    padding: 10px 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    font-family: 'Patrick Hand', cursive;
+    border: 2px solid black;
+    text-decoration: none;
+}
+#btn:hover{
+    color:black;
+    background-color: white;
+    padding: 10px 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    font-family: 'Patrick Hand', cursive;
+    border: 2px solid black;
+    text-decoration: none;
+    cursor: pointer;
 }
