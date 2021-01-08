@@ -19,8 +19,8 @@
 }
 /* logo style */
 #logo img{
-    height: 42px;
-    margin: 24px 24px;
+    height: 96px;
+    
 
 }
 
@@ -70,14 +70,14 @@ font-size: 1.3rem;
     display: flex;
     flex-direction: column;
     padding: 3px 200px;
-    height: 645px;
+    height: 640px;
     justify-content: center;
     align-items: center;
 }
 
 #home::before{
     content: "";
-    background: url(https://images.pexels.com/photos/4606338/pexels-photo-4606338.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) no-repeat center center/cover;
+    background: url(https://images.pexels.com/photos/2519374/pexels-photo-2519374.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) no-repeat center center/cover;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -139,6 +139,33 @@ font-size: 1.3rem;
 }
 
 /* client section  */
+#client-section{
+    height: 400px;
+}
+
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url(https://images.pexels.com/photos/104842/bmw-vehicle-ride-bike-104842.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)no-repeat center center/cover;
+    width: 100%;
+    height: 54%;
+    z-index: -1;
+    opacity: 7.4;
+}
+#client{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.client-item{
+    padding: 34px;
+    
+}
+
+.client-item img{
+    height: 112px;
+}
 
 
 /* Utility classes */
@@ -152,6 +179,7 @@ text-align: center;
     background-color: black;
     display: block;
     padding: 10px 10px;
+    margin:40px;
     font-size: 15px;
     border-radius: 20px;
     font-family: 'Patrick Hand', cursive;
