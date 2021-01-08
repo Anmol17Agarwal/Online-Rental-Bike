@@ -1,6 +1,6 @@
 *{
     margin: 0px;
-    padding: 4px;
+    padding: 2px;
    
  
 } 
@@ -57,7 +57,7 @@ font-size: 1.3rem;
     color: white;
     display: block;
     padding: 10px 10px;
-    font-size: 15px;
+    font-size: 18px;
     border-radius: 20px;
     font-family: 'Patrick Hand', cursive;
     text-decoration: none;
@@ -99,6 +99,7 @@ font-size: 1.3rem;
 #home p{
     text-align: center;
     color: white;
+    font-size: 18px;
     font-family: 'Patrick Hand', cursive;
     font-size: 1.5rem;
 }
@@ -248,6 +249,35 @@ font-family: 'Patrick Hand', cursive;
     font-family: 'Patrick Hand', cursive;
     border: 2px solid black;
     text-decoration: none;
+}
+#btn1{
+    color: white;
+    background-color: black;
+    display: block;
+    padding: 9px 11px;
+    margin: 15px;
+    margin-left: 305px;
+    font-size: 22px;
+    border-radius: 18px;
+    font-family: 'Patrick Hand', cursive;
+    border: 2px solid black;
+    text-decoration: none;
+
+}
+
+#btn1:hover{
+    color: black;
+    background-color: white;
+    display: block;
+    padding: 9px 11px;
+    margin: 15px;
+    margin-left: 305px;
+    font-size: 22px;
+    border-radius: 18px;
+    font-family: 'Patrick Hand', cursive;
+    border: 2px solid black;
+    text-decoration: none;
+    cursor: pointer;
 }
 #btn:hover{
     color:black;
