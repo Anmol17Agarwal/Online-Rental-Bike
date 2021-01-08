@@ -1,6 +1,6 @@
 *{
     margin: 0px;
-    padding: 2px;
+    padding: 3px;
    
  
 } 
@@ -10,7 +10,7 @@ body{
 
 /* create variable */
 :root{
-    --navbar-height:30px;
+    --navbar-height:25px;
 }
 #navbar{
    display: flex;
@@ -74,7 +74,7 @@ font-size: 1.3rem;
     display: flex;
     flex-direction: column;
     padding: 3px 200px;
-    height: 652px;
+    height: 675px;
     justify-content: center;
     align-items: center;
 }
@@ -93,12 +93,12 @@ font-size: 1.3rem;
 
 #home h1{
     text-align: center;
-    color: white;
+    color: #eb5405;
     font-family: 'Patrick Hand', cursive;
 }
 #home p{
     text-align: center;
-    color: white;
+    color: #021617;;
     font-size: 18px;
     font-family: 'Patrick Hand', cursive;
     font-size: 1.5rem;
@@ -116,6 +116,7 @@ font-size: 1.3rem;
 #services h1{
     text-align: center;
     color: white;
+    padding: 5px;
     font-family: 'Patrick Hand', cursive;
     font-size: 1.5rem;
 }
@@ -150,7 +151,7 @@ font-size: 1.3rem;
 
 /* client section  */
 #client-section{
-    height: 480px;
+    height: 493px;
 }
 
 #client-section::before{
@@ -160,6 +161,7 @@ font-size: 1.3rem;
     width: 100%;
     height: 67%;
     z-index: -1;
+    opacity: 0.6;
  
 }
 #client{
@@ -176,7 +178,7 @@ align-items: center;
     height: 112px;
 }
 #client-section h1{
-    color: #0c0c0c;
+    color: white;
 }
 /* end of client section  */
 
@@ -221,7 +223,7 @@ align-items: center;
    font-family: 'Patrick Hand', cursive;
 }
 #contact h1{
-    color: #0c0c0c;
+    color: white;
 }
     /* end of contact section */
 
@@ -230,7 +232,7 @@ align-items: center;
 /* Utility classes */
 #primary{
 font-size: 3rem;
-padding: 14px;
+padding:0px;
 font-weight: bold;
 font-style: unset;
 color: wheat;
@@ -255,8 +257,8 @@ font-family: 'Patrick Hand', cursive;
     background-color: black;
     display: block;
     padding: 9px 11px;
-    margin: 15px;
-    margin-left: 305px;
+    margin: 14px;
+    margin-left: 270px;
     font-size: 22px;
     border-radius: 18px;
     font-family: 'Patrick Hand', cursive;
@@ -270,8 +272,8 @@ font-family: 'Patrick Hand', cursive;
     background-color: white;
     display: block;
     padding: 9px 11px;
-    margin: 15px;
-    margin-left: 305px;
+    margin: 14px;
+    margin-left: 270px;
     font-size: 22px;
     border-radius: 18px;
     font-family: 'Patrick Hand', cursive;
